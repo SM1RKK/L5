@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Zen+Kurenaido&display=swap');
+.row{
+  height: 100vh;
+  font-size: 0;
+}
+
+body{
+  margin:0;
+  padding:0;
+ /* font-family: 'Raleway', sans-serif;
+  font-family: 'Zen Kurenaido', sans-serif;*/
+}
+
+.col{
+  width: calc(100% / 6);
+  height: 100%;
+  display: inline-block;
+  font-size: initial;
+  vertical-align: top;
+  font-family: 'Zen Kurenaido', sans-serif;
+  text-align:center;
+  line-height:190vh;
+}
+
+.big{
+  font-weight:bold;
+  font-family: 'Raleway', sans-serif;
+  color:purple;
+  font-size: 40px;
+  
+}
+
+.col1{
+  background-color: #ffe6ee;
+}
+
+.col2{
+  background-color: #ffccdd;
+}
+
+.col3{
+  background-color: #ffb3cc;
+}
+
+.col4{
+  background-color: #ff99bb;
+}
+
+.col5{
+  background-color: #ff80aa;
+}
+
+.col6{
+  background-color: #ff6699;
+}
+
+.col1:hover .big{
+  color:red;
+}
+
+.col2:hover .big{
+  color:orange;
+}
+
+.col3:hover .big{
+  color:yellow;
+}
+
+.col4:hover .big{
+  color:green;
+}
+
+.col5:hover .big{
+  color:blue;
+}
+
+.col6:hover .big{
+  color:white;
+}
+
